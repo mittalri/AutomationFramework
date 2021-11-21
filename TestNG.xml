@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="CRMNEXTAutomationFramework">
+<listeners>
+<listener class-name= "com.crmnext.utilities.Reporting"></listener>
+</listeners>
+
+	<test name="com.crmnext.testCases">
+		<parameter name="browser" value="chrome">
+		</parameter>
+		<classes>
+			<class name="com.crmnext.testCases.TC1_LoginTest_001"></class>
+			<class name="com.crmnext.testCases.TC2_LoginValidation_002"></class>
+		</classes>
+
+	</test>
+</suite>

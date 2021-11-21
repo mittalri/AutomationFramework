@@ -1,0 +1,7 @@
+com\crmnext\pageObjects\LoginPage.class
+com\crmnext\utilities\ReadConfig.class
+com\crmnext\utilities\Reporting.class
+com\crmnext\testCases\TC1_LoginTest_001.class
+com\crmnext\utilities\XLUtils.class
+com\crmnext\testCases\BaseClass.class
+com\crmnext\testCases\TC2_LoginValidation_002.class
